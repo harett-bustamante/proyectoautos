@@ -7,16 +7,16 @@
 <div>
     <table style="width:100%;">
         <tr>
-            <td colspan="3" style="background-color:#1648cd;"><center><h1 style="color:white;"> $$$ AUTOS BARATOS $$$</h1></center></td>
+            <td colspan="3" style="background-color: #1648cd;"><center><h1 style="color:white;"> $$$ AUTOS BARATOS $$$</h1></center></td>
         </tr>
         <tr>
-            <td style="background-color:#2597d4;"> 
+            <td style="background-image: linear-gradient(#2597d4, lightblue);"> 
                 <center>
                     <h2>Inicia sesión:</h2>
                     <button class="btn btn-primary"><a href="/login" style="color: white; text-decoration:none">Iniciar Sesión.</a></button>
                 </center>
             </td>
-            <td colspan="2" style="background-color:#2597d4;">
+            <td colspan="2" style="background-image: linear-gradient(#2597d4, lightblue);">
                 <center>
                     <h2>¿No tienes cuenta? Registrate gratis aquí:</h2>
                     <button class="btn btn-primary"><a href="/register" style="color: white; text-decoration:none">Registrarse.</a></button>

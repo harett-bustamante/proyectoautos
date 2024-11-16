@@ -3,7 +3,8 @@
 @section('title','Autos.io | Editar direccion')
 
 @section('content')
-<h1>Editar direccion</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Editar direccion</h1>
+<center>
 <form action="/direccion/{{$direccion->id}}" method="post">
     @csrf
     @method('PUT')
@@ -64,4 +65,5 @@
         Actualizar direccion
     </button>
 </form>
+</center>
 @endsection

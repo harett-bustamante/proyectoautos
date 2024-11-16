@@ -3,7 +3,8 @@
 @section('title','Autos.io | Editar usuario')
 
 @section('content')
-<h1>Editar usuario</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Editar usuario</h1>
+<center>
 <form action="/usuario/{{$usuario->id}}" method="post">
     @csrf
     @method('PUT')
@@ -47,4 +48,5 @@
         Actualizar usuario
     </button>
 </form>
+</center>
 @endsection

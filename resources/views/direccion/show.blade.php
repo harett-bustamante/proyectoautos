@@ -8,6 +8,7 @@ direccion #{{$direccion->id}}
 @include('sweetalert::alert')
 <a href="/direccion">Volver a CRUD</a>
 <br>
+<center>
 <h1>Información de la direccion</h1>
 <h2>Id: {{$direccion->id}}</h2>
 <h2>num_exterior: {{$direccion->num_exterior}}</h2>
@@ -19,6 +20,7 @@ direccion #{{$direccion->id}}
 <h2>Pais: {{$direccion->pais}}</h2>
 <h2>codigo_postal: {{$direccion->codigo_postal}}</h2>
 <h2>Id_usuario1: {{$direccion->id_usuario1}}</h2>
+</center>
 <br>
 
 @endsection

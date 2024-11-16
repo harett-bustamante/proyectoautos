@@ -4,7 +4,7 @@
 
 @section('content')
 @include('sweetalert::alert')
-    <h1>Autos registrados</h1>
+    <h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Autos registrados</h1>
 
     <a href="/auto_compra/create" class="btn btn-success">Nuevo auto</a>
     <br>

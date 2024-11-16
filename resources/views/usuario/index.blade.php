@@ -4,7 +4,7 @@
 
 @section('content')
 @include('sweetalert::alert')
-    <h1>Usuarios registrados</h1>
+    <h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Usuarios registrados</h1>
 
     <a href="/usuario/create" class="btn btn-success">Nuevo usuario</a>
     <br>

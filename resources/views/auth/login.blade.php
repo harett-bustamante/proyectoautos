@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('title','Autos.io')
 @section('content')
-<div style="background-color:blue;">
-    <h2>Iniciar sesión</h2>
+<div>
+    <h2 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Iniciar sesión</h2>
+    <center>
     @if($errors->any())
     <ul>
         @foreach($errors->all() as $error)
@@ -22,5 +23,6 @@
     </form>
     <br>
     <p>¿No tienes cuenta? <a href="/register"> Crea una cuenta dando clic aquí.</a></p>
+    </center>
 </div>
 @endsection

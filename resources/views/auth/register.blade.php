@@ -5,7 +5,8 @@
 
 @section('content')
 <div>
-    <h2>Sign Up</h2>
+    <h2 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Registrarse</h2>
+    <center>
     @if($errors->any())
         <ul>
             @foreach($errors->all() as $error)
@@ -42,5 +43,6 @@
     </form>
     <br>
     <p>¿ya tienes cuenta?<a href="/login">Inicia sesión dando clic aquí.</a></p>
+    </center>
 </div>
 @endsection

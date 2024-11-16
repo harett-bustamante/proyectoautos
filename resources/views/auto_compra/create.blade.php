@@ -3,7 +3,8 @@
 @section('title','Autos.io | Crear auto')
 
 @section('content')
-<h1>Crear auto</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Crear auto</h1>
+<center>
 <form action="/auto_compra" method="post">
     @csrf
     <label>
@@ -46,4 +47,5 @@
         Crear auto
     </button>
 </form>
+</center>
 @endsection

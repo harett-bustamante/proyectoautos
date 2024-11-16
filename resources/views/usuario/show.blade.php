@@ -8,6 +8,7 @@ usuario #{{$usuario->id}}
 @include('sweetalert::alert')
 <a href="/usuario">Volver a CRUD</a>
 <br>
+<center>
 <h1>Información del usuario</h1>
 <h2>Id: {{$usuario->id}}</h2>
 <h2>Nombre:{{$usuario->nombre}}</h2>
@@ -16,6 +17,7 @@ usuario #{{$usuario->id}}
 <h2>Fecha nacimiento: {{$usuario->fecha_nacimiento}}</h2>
 <h2>Correo: {{$usuario->correo}}</h2>
 <h2>Contrasena: {{$usuario->contrasena}}</h2>
+</center>
 <br>
 
 @endsection

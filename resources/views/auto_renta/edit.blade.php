@@ -3,7 +3,8 @@
 @section('title','Autos.io | Editar auto')
 
 @section('content')
-<h1>Editar auto</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Editar auto</h1>
+<center>
 <form action="/auto_renta/{{$autoventa->id}}" method="post">
     @csrf
     @method('PUT')
@@ -52,4 +53,5 @@
         Actualizar auto
     </button>
 </form>
+</center>
 @endsection

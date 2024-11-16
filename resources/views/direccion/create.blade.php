@@ -3,7 +3,8 @@
 @section('title','Autos.io | Crear direccion')
 
 @section('content')
-<h1>Crear direccion</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Crear direccion</h1>
+<center>
 <form action="/direccion" method="post">
     @csrf
     <label>
@@ -63,4 +64,5 @@
         Crear direccion
     </button>
 </form>
+</center>
 @endsection

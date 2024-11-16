@@ -3,7 +3,8 @@
 @section('title','Auto.io | Crear usuario')
 
 @section('content')
-<h1>Crear usuario</h1>
+<h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Crear usuario</h1>
+<center>
 <form action="/usuario" method="post">
     @csrf
     
@@ -52,4 +53,5 @@
         Crear usuario
     </button>
 </form>
+</center>
 @endsection

@@ -4,7 +4,7 @@
 
 @section('content')
 @include('sweetalert::alert')
-    <h1>Direcciones registradas</h1>
+    <h1 style="background-image: linear-gradient(to right, #1648cd, lightblue);color:white;">Direcciones registradas</h1>
 
     <a href="/direccion/create" class="btn btn-success">Nueva direccion</a>
     <br>
